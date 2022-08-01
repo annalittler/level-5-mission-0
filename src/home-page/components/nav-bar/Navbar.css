@@ -1,0 +1,20 @@
+#nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8fb996;
+}
+
+.nav-item,
+.nav-item h2 {
+  margin: 0.2vw 2vw;
+  color: white;
+}
+
+.nav-item {
+  font-size: calc(0.5rem + 0.8vw);
+}
+
+.nav-item h2 {
+  font-size: calc(0.5rem + 1w);
+}
