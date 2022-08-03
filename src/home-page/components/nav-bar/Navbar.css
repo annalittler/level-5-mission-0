@@ -88,6 +88,8 @@
   position: absolute;
   right: 0;
   background-color: white;
+  color: #757575;
+  font-weight: 500;
   animation: fade-in-animation 0.3s;
 }
 
