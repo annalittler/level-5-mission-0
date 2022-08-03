@@ -1,0 +1,11 @@
+@media screen and (max-width: 480px) {
+  #first-section-search input {
+    width: 75%;
+    min-width: none;
+  }
+
+  #first-section-search button {
+    width: 25%;
+    min-width: none;
+  }
+}

@@ -1,0 +1,15 @@
+@media screen and (max-width: 500px) {
+  #right-nav {
+    display: none;
+  }
+
+  #alt-nav-icons {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  #alt-nav-item-container {
+    display: none;
+  }
+}
