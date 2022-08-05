@@ -1,9 +1,15 @@
 #second-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   margin: 40px;
+}
+
+#second-section section {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
 }
 
 #second-section div {
@@ -29,15 +35,15 @@
 }
 
 .second-section-text {
-  background-color: #cfcfcf;
+  background-color: #f2f2f2;
   width: 85%;
-  color: white;
-  padding: 15px 10px;
+  color: #a3a3a3;
+  padding: 10px 20px;
   box-sizing: border-box;
 }
 
 .second-section-text:hover {
-  background-color: #c6c6c6;
+  background-color: #ededed;
 }
 
 .second-section-text h3 {
@@ -48,4 +54,17 @@
 .second-section-text p {
   font-size: calc(0.5rem + 0.5vw);
   font-weight: 600;
+}
+
+.uploaded-by {
+  color: #757575;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.bold:hover {
+  color: #989898;
+  cursor: pointer;
 }

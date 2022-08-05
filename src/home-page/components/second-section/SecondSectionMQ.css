@@ -1,9 +1,13 @@
 @media screen and (max-width: 630px) {
-  #second-section {
+  #second-section section {
     flex-direction: column;
   }
 
   #second-section div {
     margin: 20px 0;
+  }
+
+  #second-section section {
+    margin: 3px 0;
   }
 }

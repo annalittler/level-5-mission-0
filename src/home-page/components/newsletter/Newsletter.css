@@ -1,0 +1,35 @@
+#newsletter {
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background-color: #f2f2f2;
+}
+
+#newsletter form {
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+}
+
+form button {
+  color: #686868;
+  width: 20%;
+  border-radius: 0 3.5px 3.5px 0;
+  border: 1px solid rgb(225, 225, 225);
+  background-color: #e1e1e1;
+  font-size: calc(0.5rem + 0.4vw);
+}
+
+#newsletter input {
+  color: #707070;
+  border-radius: 3.5px 0 0 3.5px;
+  border: 1px solid #e1e1e1;
+  padding: 2%;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: calc(0.5rem + 0.5vw);
+  padding-left: 3%;
+  background-color: #fff;
+}

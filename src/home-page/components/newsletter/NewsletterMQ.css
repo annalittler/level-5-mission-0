@@ -1,0 +1,9 @@
+@media screen and (max-width: 630px) {
+  #newsletter form {
+    width: 65%;
+  }
+
+  form button {
+    min-width: 25%;
+  }
+}
